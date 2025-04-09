@@ -1,0 +1,10 @@
+Install the following Dependencies to set up the Development Environment:
+
+1. Install Rust using rustup
+```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
+
+2. Add Wasm Target which is necessary for compiling to WebAssembly
+```rustup target add wasm32-unknown-unknown```
+
+3. Install cargo extension for ink! development
+```cargo install cargo-contract --force```
